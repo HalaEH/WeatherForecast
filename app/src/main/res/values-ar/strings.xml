@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="disable">ابطال</string>
+    <string name="enable">تفعيل</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الانجليزية</string>
+    <string name="map">الخريطة</string>
+    <string name="Location">المكان</string>
+    <string name="location">المكان</string>
+    <string name="lang">اللغة</string>
+    <string name="notification">الاشعارات</string>
+    <string name="todayForecast">طقس اليوم</string>
+    <string name="weeklyForecast">الطقس خلال ٧ ايام</string>
+    <string name="temp">درجة الحرارة - الرياح</string>
+    <string name="Humidity">الرطوبة</string>
+    <string name="Wind">الرياح</string>
+    <string name="Visiblity">الرؤية</string>
+    <string name="Cloud">السحاب</string>
+    <string name="Pressure">الضغط</string>
+    <string name="Feels_like">تشعر كأنه</string>
+    <string name="menu_home" translatable="false">الرئيسية</string>
+    <string name="menu_gallery" translatable="false">المفضلات</string>
+    <string name="menu_settings" translatable="false">الاعدادت</string>
+    <string name="menu_alert" translatable="false">المنبه</string>
+
+
+</resources>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="City" translatable="false">City Name</string>
+    <string name="title_activity_home2" translatable="false">HomeActivity2</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Weather App</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="shared_fav_pref" translatable="false">shared_fav_pref</string>
+    <string name="shared_pref" translatable="false">com.example.weatherforecastapplication</string>
+    <string name="UNITS" translatable="false">UNITS</string>
+    <string name="LANG" translatable="false">LANG</string>
+    <string name="LOCATION" translatable="false">LOCATION</string>
+    <string name="LAT" translatable="false">LAT</string>
+    <string name="LON" translatable="false">LON</string>
+    <string name="ID" translatable="false">ID</string>
+    <string name="FAV_FLAG" translatable="false">FLAG</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Favorites</string>
+    <string name="menu_settings" translatable="false">Settings</string>
+    <string name="favConditions" translatable="false">Fav Condition</string>
+    <string name="menu_alert" translatable="false">Alerts</string>
+
+
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="to" translatable="false">To_Date</string>
+    <string name="from" translatable="false">From_Date</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="initial_setup" translatable="false">Initial Setup</string>
+    <string name="Location">Location</string>
+    <string name="gps" translatable="false">GPS</string>
+    <string name="map">Map</string>
+    <string name="Daily" translatable="false">Daily</string>
+    <string name="Value" translatable="false">value</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="fahrenheit" translatable="false">Fahrenheit - miles/hour</string>
+    <string name="kelvin" translatable="false">Kelvin - miles/hour</string>
+    <string name="celsius" translatable="false">Celsius - meter/sec</string>
+    <string name="metersec" translatable="false">Meter/Sec</string>
+    <string name="milehr" translatable="false">Mile/Hour</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="location">Location</string>
+    <string name="lang">Language</string>
+    <string name="wind" translatable="false">Wind Speed</string>
+    <string name="temp">Temperature - Wind Speed</string>
+    <string name="notification">Notification</string>
+    <string name="todayForecast">TODAY\'S FORECAST</string>
+    <string name="weeklyForecast">7-DAY FORECAST</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Wind">Wind</string>
+    <string name="Visiblity">Visiblity</string>
+    <string name="Cloud">Cloud</string>
+    <string name="Pressure">Pressure</string>
+    <string name="Feels_like">Feels like</string>
+
+
+</resources>

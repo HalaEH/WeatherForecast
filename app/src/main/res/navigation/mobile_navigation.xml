@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.weatherforecast.ui.home.view.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_customDialog"
+            app:destination="@id/customDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.weatherforecast.ui.gallery.view.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_favouriteFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_favouriteFragment_to_favConditions_fragment"
+            app:destination="@id/favConditions_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.weatherforecast.ui.settings.view.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settings_to_mapsFragment"
+            app:destination="@+id/mapsFragment"/>
+        <action
+            android:id="@+id/action_settings_to_nav_home"
+            app:destination="@+id/nav_home"/>
+    </fragment>
+
+    <dialog
+        android:id="@+id/customDialog"
+        android:name="com.example.weatherforecast.ui.dialog.InitialCustomDialogFragment"
+        android:label="CustomDialog" >
+        <action
+            android:id="@+id/action_customDialog_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.weatherforecast.ui.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_navigation_home"
+            app:destination="@id/nav_home"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_mapsFragment_to_favouriteFragment"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favConditions_fragment"
+        android:name="com.example.weatherforecast.ui.favoriteConditions.view.FavConditionsFragment"
+        android:label="@string/favConditions"
+        tools:layout="@layout/fragment_fav_conditions">
+        <action
+            android:id="@+id/action_favouriteConditionFragment_to_GalleryFragment"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_alert"
+        android:name="com.example.weatherforecast.ui.alerts.view.AlertFragment"
+        tools:layout="@layout/fragment_alert">
+        <action
+            android:id="@+id/action_alertFragment_to_alertDialog"
+            app:destination="@id/alert_dialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/alert_dialog"
+        android:name="com.example.weatherforecast.ui.dialog.AlertDialogFragment">
+        <action
+            android:id="@+id/action_alertDialog_to_nav_alert"
+            app:destination="@id/nav_alert" />
+    </dialog>
+
+
+
+</navigation>
